@@ -19,3 +19,12 @@
 [submodule "bundle/whitespace"]
 	path = bundle/whitespace
 	url = https://github.com/mmozuras/vim-whitespace
+[submodule "languages/scss"]
+	path = languages/scss
+	url = https://github.com/cakebaker/scss-syntax.vim
+[submodule "languages/markdown"]
+	path = languages/markdown
+	url = https://github.com/tpope/vim-markdown
+[submodule "languages/html5"]
+	path = languages/html5
+	url = https://github.com/othree/html5.vim
