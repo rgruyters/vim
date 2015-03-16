@@ -58,10 +58,10 @@ colorscheme spacegray
 au BufRead,BufNewFile *.scss set filetype=sass
 au BufRead,BufNewFile *.md set filetype=markdown
 
-" VimR GUI settings
-if has("gui_vimr")
-   set guifont=Liberation\ Mono\ for\ Powerline:h15
-   let g:airline_powerline_fonts = 1
+" GUI settings
+if has('gui_running')
+  set guifont=Liberation\ Mono\ for\ Powerline:h15
+  let g:airline_powerline_fonts = 1
 endif
 
 
