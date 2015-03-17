@@ -83,3 +83,6 @@ let g:ctrlp_working_path_mode = ''
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$' "default ignores
 let g:ctrlp_by_filename = '1'                       "only look for filenames
 
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
+
