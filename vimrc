@@ -24,7 +24,6 @@ set ignorecase                 "set search to be case insensitive
 set smartcase                  "unless you typed uppercase letters in your query
 
 set number                     "add line numbers
-set relativenumber             "add relative numbers
 set showbreak=...
 set wrap linebreak nolist
 set cursorline                 "highlight line
@@ -35,7 +34,7 @@ set whichwrap=h,l,b,<,>,~,[,]
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
-set expandtab
+set expandtab                  "use spaces
 set shiftround
 set autoindent
 
@@ -49,7 +48,7 @@ if exists("+colorcolumn")
     set colorcolumn=81            "highlight columns 81 onwards
 endif
 
-" Themes
+" Colouring
 set t_Co=256
 set background=dark
 colorscheme spacegray
@@ -66,7 +65,6 @@ endif
 
 
 " Airline
-" let g:bufferline_echo = 0
 let g:airline_theme="bubblegum"
 let g:airline#extensions#tabline#enabled = 1 "enable the tabline
 let g:airline#extensions#tabline#fnamemod = ':t' " show just the filename of buffers in the tab line
