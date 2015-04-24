@@ -9,7 +9,7 @@ Clone the repository into your home folder.
 Next is to create a `.vimrc` in your home folder that loads all the
 settings.
 
-    echo "source ~/.vim/dot.vimrc" > ~/.vimrc
+    echo "source ~/.vim/vimrc" > ~/.vimrc
 
 *NOTE*: This will override your owm configuration file.
 
