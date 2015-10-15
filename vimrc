@@ -84,3 +84,5 @@ let g:ctrlp_by_filename = '1'                       "only look for filenames
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
+:nmap \l :setlocal number!<CR>
+:nmap \o :set paste!<CR>
