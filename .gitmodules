@@ -37,3 +37,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular
+[submodule "bundle/bro"]
+	path = bundle/bro
+	url = git://github.com/mephux/bro.vim.git

@@ -59,8 +59,9 @@ au BufRead,BufNewFile *.md set filetype=markdown
 
 " GUI settings
 if has('gui_running')
-  set guifont=Liberation\ Mono\ for\ Powerline:h15
-  let g:airline_powerline_fonts = 1
+  set guifont=Menlo\ Regular:h14
+"  set guifont=Liberation\ Mono\ for\ Powerline:h15
+"  let g:airline_powerline_fonts = 1
 endif
 
 
